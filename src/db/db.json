@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "email": "sm6394243434@gmail.com",
+      "name": "satyam mishra",
+      "password": "abcd@123",
+      "id": 1
+    },
+    {
+      "email": "sm6394243434@gmail.com",
+      "name": "satyam mishra",
+      "password": "abcd@123",
+      "id": 1
+    },
+    {
+      "email": "sm6394243434@gmail.com",
+      "name": "satyam mishra",
+      "password": "abcd@123",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

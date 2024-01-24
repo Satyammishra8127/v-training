@@ -1,15 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+  <interpolation1/>
+  <methodsparams/>
+  <events/>
+  <twowaybinding/>
+  <getinputfieldvalue/>
+  <checkboxradio/>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import interpolation1 from './components/interpolation1.vue'
+import methodsparams from './components/methodsparams.vue'
+import events from './components/events.vue'
+import twowaybinding from './components/twowaybinding.vue'
+import getinputfieldvalue from './components/getinputfieldvalue.vue'
+import Checkboxradio from './components/checkboxradio.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   interpolation1,
+   methodsparams,
+   events,
+   twowaybinding,
+   getinputfieldvalue,
+    Checkboxradio
   }
 }
 </script>
