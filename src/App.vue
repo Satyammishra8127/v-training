@@ -6,6 +6,8 @@
   <twowaybinding/>
   <getinputfieldvalue/>
   <checkboxradio/>
+  <Else1/>
+  <loop1/>
 </div>
 </template>
 
@@ -16,6 +18,8 @@ import events from './components/events.vue'
 import twowaybinding from './components/twowaybinding.vue'
 import getinputfieldvalue from './components/getinputfieldvalue.vue'
 import Checkboxradio from './components/checkboxradio.vue'
+import Else1 from './components/Else1.vue'
+import loop1 from './components/loop1.vue'
 
 export default {
   name: 'App',
@@ -25,7 +29,9 @@ export default {
    events,
    twowaybinding,
    getinputfieldvalue,
-    Checkboxradio
+    Checkboxradio,
+    Else1,
+    loop1
   }
 }
 </script>
