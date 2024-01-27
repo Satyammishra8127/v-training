@@ -2,6 +2,8 @@
   <div>
   <home/>
   <Htmlbinding/>
+  <Classbinding/>
+  <studentprops1/>
 </div>
 </template>
 
@@ -13,9 +15,11 @@ import twowaybinding from './components/twowaybinding.vue'
 import getinputfieldvalue from './components/getinputfieldvalue.vue'
 import Checkboxradio from './components/checkboxradio.vue'
 import Else1 from './components/Else1.vue'
-import loop1 from './components/loop1.vue'*/
+import loop1 from './components/loop1.vue'
 import home from './components/home.vue'
 import Htmlbinding from './components/Htmlbinding.vue';
+import Classbinding from './components/Classbinding.vue'*/
+import studentprops1 from './components/studentprops1.vue';
 
 export default {
   name: 'App',
@@ -27,9 +31,11 @@ export default {
    getinputfieldvalue,
     Checkboxradio,
     Else1,
-    loop1,*/
+    loop1,
     home,
-    Htmlbinding
+    Htmlbinding,
+    Classbinding*/
+    studentprops1
   }
 }
 </script>
