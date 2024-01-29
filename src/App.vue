@@ -4,6 +4,7 @@
   <Htmlbinding/>
   <Classbinding/>
   <studentprops1/>
+  <parent/>
 </div>
 </template>
 
@@ -20,6 +21,7 @@ import home from './components/home.vue'
 import Htmlbinding from './components/Htmlbinding.vue';
 import Classbinding from './components/Classbinding.vue'*/
 import studentprops1 from './components/studentprops1.vue';
+import parent from './components/parent.vue'
 
 export default {
   name: 'App',
@@ -35,7 +37,8 @@ export default {
     home,
     Htmlbinding,
     Classbinding*/
-    studentprops1
+    studentprops1,
+    parent
   }
 }
 </script>
