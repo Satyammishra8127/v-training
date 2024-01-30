@@ -3,7 +3,7 @@
     <h1>
         Child
     </h1>
-    <button v-on:click="getuser(username)"></button>
+    <button v-on:click="getuser(username)">click</button>
 </div>
 </template>
 

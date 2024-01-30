@@ -1,7 +1,7 @@
 <template>
 <div>
     <h1>
-        Child
+        Parent
     </h1>
     <child :getuser="getusername"/>
 </div>
@@ -12,7 +12,7 @@ import child from './child.vue'
 export default {
     name: 'parentPage',
     components:{
-        child
+        child,
     },
     methods:{
         getusername(name){

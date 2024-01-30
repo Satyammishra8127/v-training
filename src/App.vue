@@ -1,10 +1,12 @@
 <template>
-  <div>
-  <home/>
-  <Htmlbinding/>
-  <Classbinding/>
-  <studentprops1/>
-  <parent/>
+<div>
+    <home />
+    <Htmlbinding />
+    <Classbinding />
+    <studentprops1 />
+    <parent />
+    <ReF0 />
+    <modifiers/>
 </div>
 </template>
 
@@ -19,37 +21,41 @@ import Else1 from './components/Else1.vue'
 import loop1 from './components/loop1.vue'
 import home from './components/home.vue'
 import Htmlbinding from './components/Htmlbinding.vue';
-import Classbinding from './components/Classbinding.vue'*/
-import studentprops1 from './components/studentprops1.vue';
+import Classbinding from './components/Classbinding.vue'
+import studentprops1 from './components/studentprops1.vue'
 import parent from './components/parent.vue'
+import ReF0 from './components/ReF0.vue';*/
+import modifiers from './components/modifiers.vue';
 
 export default {
-  name: 'App',
-  components: {
-   /*interpolation1,
-   methodsparams,
-   events,
-   twowaybinding,
-   getinputfieldvalue,
-    Checkboxradio,
-    Else1,
-    loop1,
-    home,
-    Htmlbinding,
-    Classbinding*/
-    studentprops1,
-    parent
-  }
+    name: 'App',
+    components: {
+        /*interpolation1,
+        methodsparams,
+        events,
+        twowaybinding,
+        getinputfieldvalue,
+         Checkboxradio,
+         Else1,
+         loop1,
+         home,
+         Htmlbinding,
+         Classbinding,
+         studentprops1,
+        parent,
+        ReF0*/
+        modifiers
+    }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
 }
 </style>
