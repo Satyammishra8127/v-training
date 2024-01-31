@@ -7,6 +7,7 @@
     <parent />
     <ReF0 />
     <modifiers/>
+    <ComputedPROPERTY/>
 </div>
 </template>
 
@@ -26,6 +27,7 @@ import studentprops1 from './components/studentprops1.vue'
 import parent from './components/parent.vue'
 import ReF0 from './components/ReF0.vue';*/
 import modifiers from './components/modifiers.vue';
+import ComputedPROPERTY from './components/ComputedPROPERTY.vue';
 
 export default {
     name: 'App',
@@ -44,7 +46,9 @@ export default {
          studentprops1,
         parent,
         ReF0*/
-        modifiers
+        modifiers,
+        ComputedPROPERTY
+
     }
 }
 </script>
