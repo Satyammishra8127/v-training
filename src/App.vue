@@ -8,6 +8,7 @@
     <ReF0 />
     <modifiers/>
     <ComputedPROPERTY/>
+    <Watcher/>
 </div>
 </template>
 
@@ -25,9 +26,10 @@ import Htmlbinding from './components/Htmlbinding.vue';
 import Classbinding from './components/Classbinding.vue'
 import studentprops1 from './components/studentprops1.vue'
 import parent from './components/parent.vue'
-import ReF0 from './components/ReF0.vue';*/
+import ReF0 from './components/ReF0.vue';
 import modifiers from './components/modifiers.vue';
-import ComputedPROPERTY from './components/ComputedPROPERTY.vue';
+import ComputedPROPERTY from './components/ComputedPROPERTY.vue';*/
+import Watcher from './components/Watcher.vue';
 
 export default {
     name: 'App',
@@ -45,9 +47,11 @@ export default {
          Classbinding,
          studentprops1,
         parent,
-        ReF0*/
-        modifiers,
-        ComputedPROPERTY
+        ReF0,
+        modifiers
+        ComputedPROPERTY*/
+        Watcher
+
 
     }
 }
