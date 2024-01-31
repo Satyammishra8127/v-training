@@ -1,20 +1,39 @@
 <template>
 <div>
-    <h1>
-        Watchers
-    </h1>
+    <Slots>
+        <h1>
+            Watchers
+        </h1>
+    </Slots>
+    <Slots>
+        <h2>Slots in Vue.js</h2>
+    </Slots>
     <h2>
         {{count}}
     </h2>
     <button v-on:click="count=count+1">+</button>
     <button v-on:click="count=count-1">-</button>
-
+    <Slots>
+        <template v-slot:header>
+            <h1>Pariwesh sir</h1>
+        </template>
+        <template v-slot:main>
+            <h1>Technology</h1>
+        </template>
+        <template v-slot:footer>
+            <h1>Teacher</h1>
+        </template>
+    </Slots>
 </div>
 </template>
 
 <script>
+import Slots from './Slots.vue'
 export default {
     name: 'WatcherPage',
+    components: {
+        Slots
+    },
     data() {
         return {
             count: 0
